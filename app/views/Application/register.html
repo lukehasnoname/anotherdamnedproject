@@ -1,0 +1,20 @@
+#{extends 'main.html' /}
+#{set title:'Register' /}
+
+<h1>Registration</h1>
+
+<form method="post" action="@{Application.register_post}">
+Desired Username: <br />
+<input type="text" name="username" value="${flash.username}" /><br />
+
+Password: <br />
+<input type="password" name="password1" /><br />
+
+Confirm Password: <br />
+<input type="password" name="password2" /><br />
+
+Email Address: <br />
+<input type="email" name="email" value="${flash.email}" /><br />
+
+<input type="submit" value="Register" />
+</form>

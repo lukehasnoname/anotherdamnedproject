@@ -1,0 +1,19 @@
+#{extends 'main.html' /}
+#{set title:'Root Messages' /}
+
+<h2>Recent Threads</h2>
+<ul>
+	#{list items:rootMessages, as:'thread' }
+		<li><a href="${thread.link}">${thread.title}</a> by ${thread.submitter}</li>
+	#{/list}	
+</ul>
+
+<h2>Recent Users</h2>
+<ul>
+	#{list items:users, as:'user' }
+		<li>${user}</li>
+	#{/list}	
+</ul>
+
+
+	

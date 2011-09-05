@@ -1,0 +1,5 @@
+05 Sep 2011 13:15:24,083 INFO  ~ Starting /home/gaul/workspace/simple
+05 Sep 2011 13:15:25,273 WARN  ~ You're running Play! in DEV mode
+05 Sep 2011 13:15:25,566 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+05 Sep 2011 13:15:32,791 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+05 Sep 2011 13:15:34,733 INFO  ~ Application 'simple' is now started !

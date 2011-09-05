@@ -1,0 +1,5 @@
+# Application dependencies
+
+require:
+	- play
+    - play -> html5validation 1.2.2

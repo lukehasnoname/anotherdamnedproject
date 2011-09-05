@@ -1,0 +1,16 @@
+#{extends 'main.html' /}
+#{set title:'New Thread' /}
+
+<h1>New Thread</h1>
+
+<form method="post" action="@{Messages.create_post}">
+Thread title: <br />
+<input type="text" name="title" value="${flash.title}" /><br />
+
+Link: <br />
+<input type="url" name="link" value="${flash.link}" /><br />
+
+Text (Optional): <br />
+<input type="textarea" name="text" value="${flash.text}" /><br />
+<input type="submit" value="Submit" />
+</form>
